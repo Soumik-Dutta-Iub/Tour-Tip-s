@@ -1,0 +1,1235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css" integrity="sha384-Mmxa0mLqhmOeaE8vgOSbKacftZcsNYDjQzuCOm6D02luYSzBG8vpaOykv9lFQ51Y" crossorigin="anonymous">
+
+
+
+    <!-- Main CSS-->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Javascript -->
+    <script src="js/script.js"></script>
+
+    <!--Google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyALyhZa8wSZDvGmEbXHiKO4XB-WVtJfX8A&callback=initMap&libraries=&v=weekly" defer></script>
+
+
+    <title>Tour Tip's</title>
+  </head>
+
+  <body>
+
+
+    <!-- 
+    -----------------------------------
+    -----Navbar--------
+    -----------------------------------
+    -->
+
+
+    <nav class="navbar navbar-light navbar-expand-md">
+      <div class="container">
+
+        <a class="navbar-brand" href="#">Tour Tip's</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav ml-auto nav-c">
+            <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="aboutus.html">About Us</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    
+
+    <!-- 
+    -----------------------------------
+    -----Header Carousel--------
+    -----------------------------------
+    -->
+
+    <header>
+        <div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/bangladesh.jpg" class="d-block w-100" alt="bangladesh">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Nulla vitae elit libero</h5>
+                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/fort-aurangabad.jpg" class="d-block w-100" alt="aurangabad">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Lorem ipsum dolor sit</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/bisnakandi.jpg" class="d-block w-100" alt="bisnakandi">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Praesent commodo cursus</h5>
+                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/sea.jpg" class="d-block w-100" alt="sea">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Praesent commodo cursus magna</h5>
+                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#header-carousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#header-carousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+    </header>
+
+    
+    <!-- 
+    -----------------------------------
+    -----Most attractive places--------
+    -----------------------------------
+    -->
+
+
+      <div class="row row-content places">
+        <div class="col-12">
+          <h2>Most Attractive Places of Bangladesh</h2>
+        </div>
+        <div class="site col-lg-4 col-md-6">
+          <div class="card">
+            <img src="images/cox's-bazar1.jpg" class="card-img-top" alt="coxbazar">
+            <div class="card-body">
+              <h5 class="card-title">Cox's Bazar</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="https://en.wikipedia.org/wiki/Cox%27s_Bazar" class="btn btn-warning">Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="site col-lg-4 col-md-6">
+          <div class="card">
+            <img src="images/Sundarban1.jpg" class="card-img-top" alt="sundarban">
+            <div class="card-body">
+              <h5 class="card-title">Sundarbans</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="https://en.wikipedia.org/wiki/Sundarbans" class="btn btn-warning">Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="site col-lg-4 col-md-6">
+          <div class="card">
+            <img src="images/Saint-Martin-Island1.jpg" class="card-img-top" alt="st-martin">
+            <div class="card-body">
+              <h5 class="card-title">St. Martin's Island</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="https://en.wikipedia.org/wiki/St._Martin%27s_Island" class="btn btn-warning">Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="site col-lg-4 col-md-6">
+          <div class="card">
+            <img src="images/bandarban1.jpg" class="card-img-top" alt="bandarban">
+            <div class="card-body">
+              <h5 class="card-title">Bandarban</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="https://en.wikipedia.org/wiki/Bandarban_District" class="btn btn-warning">Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="site col-lg-4 col-md-6">
+          <div class="card">
+            <img src="images/Sajek1.jpg" class="card-img-top" alt="sajek">
+            <div class="card-body">
+              <h5 class="card-title">Sajek Valley</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="https://en.wikipedia.org/wiki/Sajek_Valley" class="btn btn-warning">Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="site col-lg-4 col-md-6">
+          <div class="card">
+            <img src="images/sreemangal3.jpg" class="card-img-top" alt="sreemangal">
+            <div class="card-body">
+              <h5 class="card-title">Sreemangal</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="https://en.wikipedia.org/wiki/Sreemangal_Upazila" class="btn btn-warning">Details</a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+
+      <!-- 
+      -----------------------------------
+      -------------Places to Visit
+      -----------------------------------
+      -->
+
+
+      <div class="row row-content places-visit">
+        <div class="col-12">
+          <h2>Places to Visit in Bangladesh</h2>
+        </div>
+        
+        <div class="col-12">
+          <ul class="nav nav-tabs">
+            <li class="nav-items">
+              <a class="nav-link active" href="#dhaka" role="tab" data-toggle="tab">Dhaka</a>
+            </li>
+            <li class="nav-items">
+              <a class="nav-link" href="#chittagong" role="tab" data-toggle="tab">Chittagong</a>
+            </li>
+            <li class="nav-items">
+              <a class="nav-link" href="#sylhet" role="tab" data-toggle="tab">Sylhet</a>
+            </li>
+            <li class="nav-items">
+              <a class="nav-link" href="#khulna" role="tab" data-toggle="tab">Khulna</a>
+            </li>
+          </ul>
+
+
+
+          <!-- 
+          -----------------------------------
+          -------------Dhaka
+          -----------------------------------
+          -->
+
+
+
+          <div class="tab-content">
+            <div role="tabpanel" class="tab-pane fade show active" id="dhaka">
+              <div id="accordion2">
+                <div class="card">
+                  <div class="card-header" role="tab" id="sangsadhead">
+                    <h3 class="mb-0"><a data-toggle="collapse" data-target="#sangsad">Jatiya Sangsad Bhaban<small> The
+                          House of The Parliament of Bangladesh</small></a></h3>
+                  </div>
+                  <div class="collapse show" id="sangsad" data-parent="#accordion2">
+                    <div class="card-body">
+                      <div class="card">
+                        <div class="row no-gutters">
+                          <div class="col-lg-6 col-md-6">
+                            <div id="sang" class="carousel slide" data-ride="carousel">
+                              <div class="carousel-inner">
+                                <div class="car carousel-item active">
+                                  <img src="images/sangsad1.jpg" class="d-block w-100" alt="sangsad">
+                                </div>
+                                <div class="car carousel-item">
+                                  <img src="images/sangsad2.jpg" class="d-block w-100" alt="sangsad">
+                                </div>
+                                <div class="car carousel-item">
+                                  <img src="images/sangsad3.jpg" class="d-block w-100" alt="sangsad">
+                                </div>
+                              </div>
+                              <a class="carousel-control-prev" href="#sang" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                              </a>
+                              <a class="carousel-control-next" href="#sang" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="col-lg-6 col-md-6">
+                            <div class="card-body">
+                              <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                                the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                                type and scrambled it to make a type specimen book. It has survived not only five centuries, but
+                                also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in
+                                the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently
+                                with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="card">
+                  <div class="card-header" role="tab" id="memorialhead">
+                    <h3 class="mb-0"><a class="collapsed" data-toggle="collapse" data-target="#memorial">National Martyr's
+                        Memorial <small> The National Monument of Bangladesh</small></a></h3>
+                  </div>
+                  <div class="collapse" id="memorial" data-parent="#accordion2">
+                    <div class="card-body">
+                        <div class="card">
+                          <div class="row no-gutters">
+                            <div class="col-lg-6 col-md-6">
+                              <div id="mem" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="car carousel-item active">
+                                    <img src="images/sriti1.jpg" class="d-block w-100" alt="memorial">
+                                  </div>
+                                  <div class="car carousel-item">
+                                    <img src="images/sriti2.jpg" class="d-block w-100" alt="memorial">
+                                  </div>
+                                  <div class="car carousel-item">
+                                    <img src="images/sriti3.jpg" class="d-block w-100" alt="memorial">
+                                  </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#mem" role="button" data-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#mem" role="button" data-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Next</span>
+                                </a>
+                              </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                              <div class="card-body">
+                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                                  the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                                  type and scrambled it to make a type specimen book. It has survived not only five centuries, but
+                                  also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in
+                                  the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently
+                                  with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        
+                      </div>
+
+                  </div>
+                </div>
+
+                <div class="card">
+                  <div class="card-header" role="tab" id="sonargaonhead">
+                    <h3 class="mb-0"><a class="collapsed" data-toggle="collapse" data-target="#sonargaon">Sonargaon
+                        <small> The Capital of The Fifteenth-Century Bengal Ruler Isa Khan</small></a></h3>
+                  </div>
+                  <div class="collapse" id="sonargaon" data-parent="#accordion2">
+                    <div class="card-body">
+                        <div class="card">
+                          <div class="row no-gutters">
+                            <div class="col-lg-6 col-md-6">
+                              <div id="sonar" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="car carousel-item active">
+                                    <img src="images/sonargaon1.jpg" class="d-block w-100" alt="sonargao">
+                                  </div>
+                                  <div class="car carousel-item">
+                                    <img src="images/sonargaon2.jpg" class="d-block w-100" alt="sonargao">
+                                  </div>
+                                  <div class="car carousel-item">
+                                    <img src="images/sonargaon3.jpg" class="d-block w-100" alt="sonargao">
+                                  </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#sonar" role="button" data-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#sonar" role="button" data-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Next</span>
+                                </a>
+                              </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                              <div class="card-body">
+                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                                  the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                                  type and scrambled it to make a type specimen book. It has survived not only five centuries, but
+                                  also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in
+                                  the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently
+                                  with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        
+                      </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <div class="card-header" role="tab" id="lalbaghhead">
+                    <h3 class="mb-0"><a class="collapsed" data-toggle="collapse" data-target="#lalbagh">Lalbagh Fort
+                        <small> An Incomplete 17th-Century Mughal Fort</small></a></h3>
+                  </div>
+                  <div class="collapse" id="lalbagh" data-parent="#accordion2">
+                    <div class="card-body">
+                        <div class="card">
+                          <div class="row no-gutters">
+                            <div class="col-lg-6 col-md-6">
+                              <div id="lal" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="car carousel-item active">
+                                    <img src="images/lalbagh1.jpg" class="d-block w-100" alt="lalbagh">
+                                  </div>
+                                  <div class="car carousel-item">
+                                    <img src="images/lalbagh2.jpg" class="d-block w-100" alt="lalbagh">
+                                  </div>
+                                  <div class="car carousel-item">
+                                    <img src="images/lalbagh3.jpg" class="d-block w-100" alt="lalbagh">
+                                  </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#lal" role="button" data-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#lal" role="button" data-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Next</span>
+                                </a>
+                              </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                              <div class="card-body">
+                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                                  the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                                  type and scrambled it to make a type specimen book. It has survived not only five centuries, but
+                                  also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in
+                                  the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently
+                                  with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        
+                      </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <div class="card-header" role="tab" id="dhakeshwarihead">
+                    <h3 class="mb-0"><a class="collapsed" data-toggle="collapse" data-target="#dhakeshwari">Dhakeshwari
+                        Mandir
+                        <small> The National Temple of Bangladesh.</small></a></h3>
+                  </div>
+                  <div class="collapse" id="dhakeshwari" data-parent="#accordion2">
+                    <div class="card-body">
+                        <div class="card">
+                          <div class="row no-gutters">
+                            <div class="col-lg-6 col-md-6">
+                              <div id="dhakesh" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="car carousel-item active">
+                                    <img src="images/dhakeshwari1.jpg" class="d-block w-100" alt="dhakeshwari">
+                                  </div>
+                                  <div class="car carousel-item">
+                                    <img src="images/dhakeshwari2.jpg" class="d-block w-100" alt="dhakeshwari">
+                                  </div>
+                                  <div class="car carousel-item">
+                                    <img src="images/dhakeshwari3.jpg" class="d-block w-100" alt="dhakeshwari">
+                                  </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#dhakesh" role="button" data-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#dhakesh" role="button" data-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Next</span>
+                                </a>
+                              </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                              <div class="card-body">
+                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                                  the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                                  type and scrambled it to make a type specimen book. It has survived not only five centuries, but
+                                  also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in
+                                  the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently
+                                  with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            
+            
+            <!-- 
+            -----------------------------------
+            -------------Chittagong
+            -----------------------------------
+            -->
+
+
+
+
+
+            <div role="tabpanel" class="tab-pane fade" id="chittagong">
+              <div id="accordion">
+                <div class="card">
+                  <div class="card-header" role="tab" id="coxbazarhead">
+                    <h3 class="mb-0"><a data-toggle="collapse" data-target="#coxbazar">Cox's Bazar Beach<small> World's Longest Natural Sea Beach</small></a></h3>
+                  </div>
+                  <div class="collapse show" id="coxbazar" data-parent="#accordion">
+                    <div class="card-body">
+                        <div class="card">
+                          <div class="row no-gutters">
+                            <div class="col-lg-6 col-md-6">
+                              <div id="cox" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="car carousel-item active">
+                                    <img src="images/cox's-bazar1.jpg" class="d-block w-100" alt="coxbazar">
+                                  </div>
+                                  <div class="car carousel-item">
+                                    <img src="images/cox's-bazar2.jpg" class="d-block w-100" alt="coxbazar">
+                                  </div>
+                                  <div class="car carousel-item">
+                                    <img src="images/cox's-bazar3.jpg" class="d-block w-100" alt="coxbazar">
+                                  </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#cox" role="button" data-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#cox" role="button" data-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Next</span>
+                                </a>
+                              </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                              <div class="card-body">
+                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                                  the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                                  type and scrambled it to make a type specimen book. It has survived not only five centuries, but
+                                  also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in
+                                  the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently
+                                  with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        
+                      </div>
+
+                  </div>
+                </div>
+
+                <div class="card">
+                  <div class="card-header" role="tab" id="bandarbanhead">
+                    <h3 class="mb-0"><a class="collapsed" data-toggle="collapse" data-target="#bandarban">Bandarban
+                        <small>The Dam of Monkeys</small></a></h3>
+                  </div>
+                  <div class="collapse" id="bandarban" data-parent="#accordion">
+                    <div class="card-body">
+                        <div class="card">
+                          <div class="row no-gutters">
+                            <div class="col-lg-6 col-md-6">
+                              <div id="bandar" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="car carousel-item active">
+                                    <img src="images/bandarban1.jpg" class="d-block w-100" alt="bandarban">
+                                  </div>
+                                  <div class="car carousel-item">bandarban
+                                    <img src="images/bandarban2.jpg" class="d-block w-100" alt="bandarban">
+                                  </div>
+                                  <div class="car carousel-item">
+                                    <img src="images/bandarban3.jpg" class="d-block w-100" alt="bandarban">
+                                  </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#bandar" role="button" data-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#bandar" role="button" data-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Next</span>
+                                </a>
+                              </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                              <div class="card-body">
+                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                                  the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                                  type and scrambled it to make a type specimen book. It has survived not only five centuries, but
+                                  also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in
+                                  the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently
+                                  with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        
+                      </div>
+
+                  </div>
+                </div>
+
+                <div class="card">
+                  <div class="card-header" role="tab" id="martinhead">
+                    <h3 class="mb-0"><a class="collapsed" data-toggle="collapse" data-target="#martin">St. Martin's Island
+                        <small>A Small Island in The Bay of Bengal</small></a></h3>
+                  </div>
+                  <div class="collapse" id="martin" data-parent="#accordion">
+                    <div class="card-body">
+                        <div class="card">
+                          <div class="row no-gutters">
+                            <div class="col-lg-6 col-md-6">
+                              <div id="st" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="car carousel-item active">
+                                    <img src="images/Saint-Martin-Island1.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="car carousel-item">
+                                    <img src="images/Saint-Martin-Island2.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="car carousel-item">
+                                    <img src="images/Saint-Martin-Island3.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#st" role="button" data-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#st" role="button" data-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Next</span>
+                                </a>
+                              </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                              <div class="card-body">
+                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                                  the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                                  type and scrambled it to make a type specimen book. It has survived not only five centuries, but
+                                  also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in
+                                  the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently
+                                  with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        
+                      </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <div class="card-header" role="tab" id="sajekhead">
+                    <h3 class="mb-0"><a class="collapsed" data-toggle="collapse" data-target="#sajek">Sajek Valley
+                        <small>The Queen of Hills & Roof of Rangamati.</small></a></h3>
+                  </div>
+                  <div class="collapse" id="sajek" data-parent="#accordion">
+                    <div class="card-body">
+                        <div class="card">
+                          <div class="row no-gutters">
+                            <div class="col-lg-6 col-md-6">
+                              <div id="saj" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="car carousel-item active">
+                                    <img src="images/Sajek1.jpg" class="d-block w-100" alt="sajek">
+                                  </div>
+                                  <div class="car carousel-item">
+                                    <img src="images/Sajek2.jpg" class="d-block w-100" alt="sajek">
+                                  </div>
+                                  <div class="car carousel-item">
+                                    <img src="images/Sajek3.jpg" class="d-block w-100" alt="sajek">
+                                  </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#saj" role="button" data-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#saj" role="button" data-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Next</span>
+                                </a>
+                              </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                              <div class="card-body">
+                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                                  the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                                  type and scrambled it to make a type specimen book. It has survived not only five centuries, but
+                                  also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in
+                                  the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently
+                                  with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        
+                      </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <div class="card-header" role="tab" id="rangamatikhead">
+                    <h3 class="mb-0"><a class="collapsed" data-toggle="collapse" data-target="#rangamati">Rangamati Hill District <small>The Largest District of The Country.</small></a></h3>
+                  </div>
+                  <div class="collapse" id="rangamati" data-parent="#accordion">
+                    <div class="card-body">
+                        <div class="card">
+                          <div class="row no-gutters">
+                            <div class="col-lg-6 col-md-6">
+                              <div id="rang" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="car carousel-item active">
+                                    <img src="images/rangamati1.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="car carousel-item">
+                                    <img src="images/rangamati2.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="car carousel-item">
+                                    <img src="images/rangamati3.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#rang" role="button" data-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#rang" role="button" data-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Next</span>
+                                </a>
+                              </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                              <div class="card-body">
+                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                                  the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                                  type and scrambled it to make a type specimen book. It has survived not only five centuries, but
+                                  also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in
+                                  the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently
+                                  with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+
+
+            <!-- 
+          -----------------------------------
+          -------------Sylhet
+          -----------------------------------
+          -->
+
+
+
+
+
+            <div role="tabpanel" class="tab-pane fade" id="sylhet">
+              <div id="accordion3">
+                <div class="card">
+                  <div class="card-header" role="tab" id="swamphead">
+                    <h3 class="mb-0"><a data-toggle="collapse" data-target="#swamp">Ratargul Swamp Forest<small> The Only Swamp Forest in Bangladesh</small></a></h3>
+                  </div>
+                  <div class="collapse show" id="swamp" data-parent="#accordion3">
+                    <div class="card-body">
+                        <div class="card">
+                          <div class="row no-gutters">
+                            <div class="col-lg-6 col-md-6">
+                              <div id="ratargul" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="car carousel-item active">
+                                    <img src="images/ratargul1.jpg" class="d-block w-100" alt="ratargul">
+                                  </div>
+                                  <div class="car carousel-item">
+                                    <img src="images/ratargul2.jpg" class="d-block w-100" alt="ratargul">
+                                  </div>
+                                  <div class="car carousel-item">
+                                    <img src="images/ratargul3.jpgjaf" class="d-block w-100" alt="ratargul">
+                                  </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#ratargul" role="button" data-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#ratargul" role="button" data-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Next</span>
+                                </a>
+                              </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                              <div class="card-body">
+                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                                  the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                                  type and scrambled it to make a type specimen book. It has survived not only five centuries, but
+                                  also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in
+                                  the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently
+                                  with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        
+                      </div>
+
+                  </div>
+                </div>
+
+                <div class="card">
+                  <div class="card-header" role="tab" id="jaflonghead">
+                    <h3 class="mb-0"><a class="collapsed" data-toggle="collapse" data-target="#jaflong">Jaflong <small>Home of The Khasi Tribe</small></a></h3>
+                  </div>
+                  <div class="collapse" id="jaflong" data-parent="#accordion3">
+                    <div class="card-body">
+                        <div class="card">
+                          <div class="row no-gutters">
+                            <div class="col-lg-6 col-md-6">
+                              <div id="jaf" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="car carousel-item active">
+                                    <img src="images/jaflong1.jpg" class="d-block w-100" alt="jaflong">
+                                  </div>
+                                  <div class="car carousel-item">
+                                    <img src="images/jaflong2.jpg" class="d-block w-100" alt="jaflong">
+                                  </div>
+                                  <div class="car carousel-item">
+                                    <img src="images/jaflong3.jpg" class="d-block w-100" alt="jaflong">
+                                  </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#jaf" role="button" data-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#jaf" role="button" data-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Next</span>
+                                </a>
+                              </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                              <div class="card-body">
+                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                                  the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                                  type and scrambled it to make a type specimen book. It has survived not only five centuries, but
+                                  also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in
+                                  the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently
+                                  with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        
+                      </div>
+
+                  </div>
+                </div>
+
+                <div class="card">
+                  <div class="card-header" role="tab" id="bichnakandihead">
+                    <h3 class="mb-0"><a class="collapsed" data-toggle="collapse" data-target="#bichnakandi">Bichnakandi  <small>Meeting Point of Many Layers of Khashi Mountains</small></a></h3>
+                  </div>
+                  <div class="collapse" id="bichnakandi" data-parent="#accordion3">
+                    <div class="card-body">
+                        <div class="card">
+                          <div class="row no-gutters">
+                            <div class="col-lg-6 col-md-6">
+                              <div id="bichana" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="car carousel-item active">
+                                    <img src="images/bichanakandi1.jpg" class="d-block w-100" alt="bichanakandi">
+                                  </div>
+                                  <div class="car carousel-item">
+                                    <img src="images/bichanakandi2.jpg" class="d-block w-100" alt="bichanakandi">
+                                  </div>
+                                  <div class="car carousel-item">madhab
+                                    <img src="images/bichanakandi3.jpg" class="d-block w-100" alt="bichanakandi">
+                                  </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#bichana" role="button" data-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#bichana" role="button" data-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Next</span>
+                                </a>
+                              </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                              <div class="card-body">
+                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                                  the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                                  type and scrambled it to make a type specimen book. It has survived not only five centuries, but
+                                  also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in
+                                  the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently
+                                  with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        
+                      </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <div class="card-header" role="tab" id="madhabkundahead">
+                    <h3 class="mb-0"><a class="collapsed" data-toggle="collapse" data-target="#madhabkunda">Madhabkunda waterfall <small>One of The Highest Waterfalls in Bangladesh</small></a></h3>
+                  </div>
+                  <div class="collapse" id="madhabkunda" data-parent="#accordion3">
+                    <div class="card-body">
+                        <div class="card">
+                          <div class="row no-gutters">
+                            <div class="col-lg-6 col-md-6">
+                              <div id="madhab" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="car carousel-item active">
+                                    <img src="images/madhabkundo1.JPG" class="d-block w-100" alt="madhabkundu">
+                                  </div>
+                                  <div class="car carousel-item">
+                                    <img src="images/madhabkundo2.JPG" class="d-block w-100" alt="madhabkundu">
+                                  </div>
+                                  <div class="car carousel-item">
+                                    <img src="images/madhabkundo3.JPG" class="d-block w-100" alt="madhabkundu">
+                                  </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#madhab" role="button" data-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#madhab" role="button" data-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Next</span>
+                                </a>
+                              </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                              <div class="card-body">
+                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                                  the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                                  type and scrambled it to make a type specimen book. It has survived not only five centuries, but
+                                  also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in
+                                  the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently
+                                  with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        
+                      </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <div class="card-header" role="tab" id="sreekhead">
+                    <h3 class="mb-0"><a class="collapsed" data-toggle="collapse" data-target="#sree">Sreemangal <small>
+                          The Tea Capital of Bangladesh.</small></a></h3>
+                  </div>
+                  <div class="collapse" id="sree" data-parent="#accordion3">
+                    <div class="card-body">
+                        <div class="card">
+                          <div class="row no-gutters">
+                            <div class="col-lg-6 col-md-6">
+                              <div id="sreemangal" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="car carousel-item active">
+                                    <img src="images/sreemangal1.jpg" class="d-block w-100" alt="sreemangal">
+                                  </div>
+                                  <div class="car carousel-item">
+                                    <img src="images/sreemangal2.jpg" class="d-block w-100" alt="sreemangal">
+                                  </div>
+                                  <div class="car carousel-item">
+                                    <img src="images/sreemangal3.jpg" class="d-block w-100" alt="sreemangal">
+                                  </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#sreemangal" role="button" data-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#sreemangal" role="button" data-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Next</span>
+                                </a>
+                              </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                              <div class="card-body">
+                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                                  the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                                  type and scrambled it to make a type specimen book. It has survived not only five centuries, but
+                                  also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in
+                                  the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently
+                                  with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+
+
+
+            <!-- 
+          -----------------------------------
+          -------------Khulna
+          -----------------------------------
+          -->
+
+
+
+
+
+            <div role="tabpanel" class="tab-pane fade" id="khulna">
+              <div id="accordion4">
+                <div class="card">
+                  <div class="card-header" role="tab" id="sundarbanhead">
+                    <h3 class="mb-0"><a class="collapsed" data-toggle="collapse" data-target="#sundarban">Sundarbans
+                        <small>Largest Mangrove Forest in the World</small></a></h3>
+                  </div>
+                  <div class="collapse show" id="sundarban" data-parent="#accordion4">
+                    <div class="card-body">
+                        <div class="card">
+                          <div class="row no-gutters">
+                            <div class="col-lg-6 col-md-6">
+                              <div id="sundar" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="car carousel-item active">
+                                    <img src="images/Sundarban1.jpg" class="d-block w-100" alt="sundarban">
+                                  </div>
+                                  <div class="car carousel-item">
+                                    <img src="images/Sundarban2.jpg" class="d-block w-100" alt="sundarban">
+                                  </div>
+                                  <div class="car carousel-item">
+                                    <img src="images/Sundarban3.jpg" class="d-block w-100" alt="sundarban">
+                                  </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#sundar" role="button" data-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#sundar" role="button" data-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Next</span>
+                                </a>
+                              </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                              <div class="card-body">
+                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                                  the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                                  type and scrambled it to make a type specimen book. It has survived not only five centuries, but
+                                  also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in
+                                  the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently
+                                  with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        
+                      </div>
+
+                  </div>
+                </div>
+
+                <div class="card">
+                  <div class="card-header" role="tab" id="mosquehead">
+                    <h3 class="mb-0"><a class="collapsed" data-toggle="collapse" data-target="#mosque">Sixty Dome Mosque <small>The Largest Mosque in Bangladesh from The Sultanate Period</small></a></h3>
+                  </div>
+                  <div class="collapse" id="mosque" data-parent="#accordion4">
+                    <div class="card-body">
+                        <div class="card">
+                          <div class="row no-gutters">
+                            <div class="col-lg-6 col-md-6">
+                              <div id="shat" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="car carousel-item active">
+                                    <img src="images/shat1.jpg" class="d-block w-100" alt="Shat Gombuj">
+                                  </div>
+                                  <div class="car carousel-item">
+                                    <img src="images/shat2.jpg" class="d-block w-100" alt="Shat Gombuj">
+                                  </div>
+                                  <div class="car carousel-item">
+                                    <img src="images/shat3.jpg" class="d-block w-100" alt="Shat Gombuj">
+                                  </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#shat" role="button" data-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#shat" role="button" data-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Next</span>
+                                </a>
+                              </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                              <div class="card-body">
+                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                                  the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                                  type and scrambled it to make a type specimen book. It has survived not only five centuries, but
+                                  also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in
+                                  the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently
+                                  with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        
+                      </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <div class="card-header" role="tab" id="shilaidahahead">
+                    <h3 class="mb-0"><a class="collapsed" data-toggle="collapse" data-target="#shilaidaha">Shilaidaha Kuthi Bari  <small>Rabindranath Tagore's Residence</small></a></h3>
+                  </div>
+                  <div class="collapse" id="shilaidaha" data-parent="#accordion4">
+                    <div class="card-body">
+                        <div class="card">
+                          <div class="row no-gutters">
+                            <div class="col-lg-6 col-md-6">
+                              <div id="kuthi" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="car carousel-item active">
+                                    <img src="images/rabindrakutibari1.jpg" class="d-block w-100" alt="kuthibari">
+                                  </div>
+                                  <div class="car carousel-item">
+                                    <img src="images/rabindrakutibari2.jpg" class="d-block w-100" alt="kuthibari">
+                                  </div>
+                                  <div class="car carousel-item">
+                                    <img src="images/rabindrakutibari3.jpg" class="d-block w-100" alt="kuthibari">
+                                  </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#kuthi" role="button" data-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#kuthi" role="button" data-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Next</span>
+                                </a>
+                              </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                              <div class="card-body">
+                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                                  the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                                  type and scrambled it to make a type specimen book. It has survived not only five centuries, but
+                                  also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in
+                                  the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently
+                                  with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    
+      <!-- 
+      -----------------------------------
+      -----Footer--------
+      -----------------------------------
+      -->
+
+      <footer class="footer">
+
+        <div class="container">
+            <div class="row">             
+                <div class="col-4 col-sm-2 offset-1">
+                    <h5>Links</h5>
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="aboutus.html">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contactus.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-7 col-sm-5">
+                    <h5>Our Address</h5>
+                    <address style="font-size: 100%">
+                        300/A, Free School Street,<br>
+                        Kathalbagan, Dhaka<br>
+                        Dhaka<br>
+                        <i class="fa fa-phone"></i>: +8801832511081<br>
+                        <i class="fa fa-envelope"></i>:
+                        <a href="mailto:tour@tips.net">tour@tips.net</a>
+                    </address>
+                </div>
+                <div class="col-12 col-sm-4 align-self-center">
+                    <div class="text-center">
+                        <a href="http://google.com/+"><i class="fab fa-google-plus fa-lg"></i></a>
+                        <a href="http://www.facebook.com/profile.php?id="><i class="fab fa-facebook-square fa-lg"></i></a>
+                        <a href="http://www.linkedin.com/in/"><i class="fab fa-linkedin fa-lg"></i></a>
+                        <a href="http://twitter.com/"><i class="fab fa-twitter-square fa-lg"></i></i></a>
+                        <a href="http://youtube.com/"><i class="fab fa-youtube-square fa-lg"></i></a>
+                        <a href="mailto:"><i class="fas fa-envelope-square fa-lg"></i></a>
+                    </div>
+                </div>
+           </div>
+           <div class="row justify-content-center">             
+                <div class="col-auto">
+                    <p>© Copyright 2020 Tour Tip's</p>
+                </div>
+           </div>
+        </div>
+    </footer>
+
+    
+
+
+
+    <!-- jquery, popper.js and bootstrap js-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+
+  </body>
+
+</html>
